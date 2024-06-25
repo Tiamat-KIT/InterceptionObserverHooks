@@ -1,0 +1,13 @@
+.heading {
+  color: #0bd;
+  font-size: 4rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.active {
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(0);
+}
